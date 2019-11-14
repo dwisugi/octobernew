@@ -1,0 +1,26 @@
+1573744436a:1:{s:16:"sections/cta.htm";a:5:{s:8:"fileName";s:16:"sections/cta.htm";s:7:"content";s:448:"<section class="cta">
+    <div class="cta-content">
+        <div class="container">
+            <h2>{{ this.theme.cta_headline | raw }}</h2>
+            {% if this.theme.cta_button_link %}
+            <a href="{{ this.theme.cta_button_link }}" class="btn btn-outline btn-xl js-scroll-trigger">
+                {{ this.theme.cta_button }}
+            </a>
+            {% endif %}
+        </div>
+    </div>
+    <div class="overlay"></div>
+</section>
+";s:5:"mtime";i:1573740730;s:6:"markup";s:447:"<section class="cta">
+    <div class="cta-content">
+        <div class="container">
+            <h2>{{ this.theme.cta_headline | raw }}</h2>
+            {% if this.theme.cta_button_link %}
+            <a href="{{ this.theme.cta_button_link }}" class="btn btn-outline btn-xl js-scroll-trigger">
+                {{ this.theme.cta_button }}
+            </a>
+            {% endif %}
+        </div>
+    </div>
+    <div class="overlay"></div>
+</section>";s:4:"code";N;}}

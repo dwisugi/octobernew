@@ -1,0 +1,42 @@
+1573744617a:1:{s:21:"modules/nav-items.htm";a:5:{s:8:"fileName";s:21:"modules/nav-items.htm";s:7:"content";s:486:"{% if this.theme.download_enabled %}
+<li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#download">
+        Download
+    </a>
+</li>
+{% endif %}
+{% if this.theme.features_enabled %}
+<li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#features">
+        Features
+    </a>
+</li>
+{% endif %}
+{% if this.theme.contact_enabled %}
+<li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#contact">
+        Contact
+    </a>
+</li>
+{% endif %}
+";s:5:"mtime";i:1573740730;s:6:"markup";s:485:"{% if this.theme.download_enabled %}
+<li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#download">
+        Download
+    </a>
+</li>
+{% endif %}
+{% if this.theme.features_enabled %}
+<li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#features">
+        Features
+    </a>
+</li>
+{% endif %}
+{% if this.theme.contact_enabled %}
+<li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#contact">
+        Contact
+    </a>
+</li>
+{% endif %}";s:4:"code";N;}}

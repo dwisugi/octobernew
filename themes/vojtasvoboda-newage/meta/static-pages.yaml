@@ -1,0 +1,7 @@
+static-pages:
+    home: {  }
+    about: {  }
+    contact-us: {  }
+    projects:
+        projects-webistes: {  }
+        projects-applications: {  }
