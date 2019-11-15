@@ -1,0 +1,17 @@
+fields:
+    head_truck_type:
+        label: Text
+        span: auto
+        type: text
+    vendor:
+        label: Vendor
+        options:
+            1: Pertamina
+        showSearch: true
+        span: auto
+        type: dropdown
+    head_truck_no:
+        label: 'No Polisi'
+        span: auto
+        required: 1
+        type: text

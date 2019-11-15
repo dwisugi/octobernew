@@ -1,0 +1,16 @@
+columns:
+    head_truck_no:
+        label: 'No Polisi'
+        type: text
+        searchable: true
+        sortable: true
+    head_truck_type:
+        label: Type
+        type: text
+        searchable: true
+        sortable: true
+    vendor:
+        label: Vendor
+        type: text
+        searchable: true
+        sortable: true

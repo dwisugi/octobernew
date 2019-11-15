@@ -1,0 +1,32 @@
+fields:
+    company_code:
+        label: 'Kode Perusahaan'
+        span: auto
+        required: 1
+        type: text
+    company_cat:
+        label: Kategori
+        span: auto
+        type: text
+    company:
+        label: Perusahaan
+        span: auto
+        type: text
+    address:
+        label: Alamat
+        size: ''
+        span: auto
+        type: textarea
+    contact_name:
+        label: 'Nama Kontak'
+        span: auto
+        type: text
+    contact_phone:
+        label: 'Phone Kontak'
+        span: auto
+        type: number
+    company_notes:
+        label: 'Notes Perusahaan'
+        size: ''
+        span: auto
+        type: textarea

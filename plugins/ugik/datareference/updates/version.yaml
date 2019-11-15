@@ -1,0 +1,41 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table ugik_datareference_headtruk'
+    - builder_table_create_ugik_datareference_headtruk.php
+1.0.3:
+    - 'Updated table ugik_datareference_headtruk'
+    - builder_table_update_ugik_datareference_headtruk.php
+1.0.4:
+    - 'Updated table ugik_datareference_headtruk'
+    - builder_table_update_ugik_datareference_headtruk_2.php
+1.0.5:
+    - 'Updated table ugik_datareference_headtruk'
+    - builder_table_update_ugik_datareference_headtruck.php
+1.0.6:
+    - 'Updated table ugik_datareference_headtruck'
+    - builder_table_update_ugik_datareference_headtruck_2.php
+1.0.7:
+    - 'Updated table ugik_datareference_headtruck'
+    - builder_table_update_ugik_datareference_headtruck_3.php
+1.0.8:
+    - 'Created table ugik_datareference_company'
+    - builder_table_create_ugik_datareference_company.php
+1.0.9:
+    - 'Updated table ugik_datareference_company'
+    - builder_table_update_ugik_datareference_company.php
+1.0.10:
+    - 'Updated table ugik_datareference_company'
+    - builder_table_update_ugik_datareference_company_2.php
+1.0.11:
+    - 'Updated table ugik_datareference_company'
+    - builder_table_update_ugik_datareference_company_3.php
+1.0.12:
+    - 'Updated table ugik_datareference_company'
+    - builder_table_update_ugik_datareference_company_4.php
+1.0.13:
+    - 'Updated table ugik_datareference_company'
+    - builder_table_update_ugik_datareference_company_5.php
+1.0.14:
+    - 'Updated table ugik_datareference_company'
+    - builder_table_update_ugik_datareference_company_6.php

@@ -1,0 +1,36 @@
+columns:
+    company_code:
+        label: Kode
+        type: text
+        searchable: true
+        sortable: true
+    company_cat:
+        label: Kategori
+        type: text
+        searchable: true
+        sortable: true
+    company:
+        label: Perusahaan
+        type: text
+        searchable: true
+        sortable: true
+    address:
+        label: Alamat
+        type: text
+        searchable: true
+        sortable: true
+    contact_name:
+        label: Nama
+        type: text
+        searchable: true
+        sortable: true
+    contact_phone:
+        label: Phone
+        type: number
+        searchable: true
+        sortable: true
+    company_notes:
+        label: Notes
+        type: text
+        searchable: true
+        sortable: true

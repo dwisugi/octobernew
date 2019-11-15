@@ -1,0 +1,20 @@
+plugin:
+    name: 'ugik.datareference::lang.plugin.name'
+    description: 'ugik.datareference::lang.plugin.description'
+    author: Ugik
+    icon: oc-icon-caret-square-o-up
+    homepage: ''
+navigation:
+    main-menu-headtruck:
+        label: 'Data Reference'
+        url: ugik/datareference/headtruck
+        icon: icon-delicious
+        sideMenu:
+            side-menu-headtruck:
+                label: 'Head Truck'
+                url: ugik/datareference/headtruck
+                icon: icon-automobile
+            side-menu-company:
+                label: Company
+                url: ugik/datareference/company
+                icon: icon-university

@@ -1,0 +1,10 @@
+name: Company
+form: $/ugik/datareference/models/company/fields.yaml
+modelClass: Ugik\DataReference\Models\Company
+defaultRedirect: ugik/datareference/company
+create:
+    redirect: 'ugik/datareference/company/update/:id'
+    redirectClose: ugik/datareference/company
+update:
+    redirect: ugik/datareference/company
+    redirectClose: ugik/datareference/company

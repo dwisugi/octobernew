@@ -1,0 +1,4 @@
+title: Company
+modelClass: Ugik\DataReference\Models\Company
+toolbar:
+    buttons: reorder_toolbar
