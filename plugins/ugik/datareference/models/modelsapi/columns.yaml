@@ -1,0 +1,13 @@
+columns:
+    nama:
+        label: nama
+        type: text
+        searchable: true
+    alamat:
+        label: alamat
+        type: text
+        searchable: true
+    jurusan:
+        label: jurusan
+        type: text
+        searchable: true

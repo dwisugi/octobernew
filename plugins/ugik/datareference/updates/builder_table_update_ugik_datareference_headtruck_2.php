@@ -9,7 +9,7 @@ class BuilderTableUpdateUgikDatareferenceHeadtruck2 extends Migration
     {
         Schema::table('ugik_datareference_headtruck', function($table)
         {
-            $table->integer('id')->nullable()->change();
+            $table->bigInteger('id')->nullable(false)->unsigned()->default(null)->change();
         });
     }
     
@@ -17,7 +17,7 @@ class BuilderTableUpdateUgikDatareferenceHeadtruck2 extends Migration
     {
         Schema::table('ugik_datareference_headtruck', function($table)
         {
-            $table->integer('id')->nullable(false)->change();
+            $table->integer('id')->nullable()->unsigned()->default(null)->change();
         });
     }
 }

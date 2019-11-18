@@ -7,11 +7,19 @@ class BuilderTableUpdateUgikDatareferenceHeadtruck extends Migration
 {
     public function up()
     {
-        Schema::rename('ugik_datareference_headtruk', 'ugik_datareference_headtruck');
+        Schema::table('ugik_datareference_headtruck', function($table)
+        {
+            $table->string('head_truck_type', 32)->nullable()->change();
+            $table->string('vendor', 16)->nullable()->change();
+        });
     }
     
     public function down()
     {
-        Schema::rename('ugik_datareference_headtruck', 'ugik_datareference_headtruk');
+        Schema::table('ugik_datareference_headtruck', function($table)
+        {
+            $table->string('head_truck_type', 32)->nullable(false)->change();
+            $table->string('vendor', 16)->nullable(false)->change();
+        });
     }
 }

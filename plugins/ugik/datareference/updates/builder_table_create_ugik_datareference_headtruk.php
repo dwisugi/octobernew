@@ -7,7 +7,7 @@ class BuilderTableCreateUgikDatareferenceHeadtruk extends Migration
 {
     public function up()
     {
-        Schema::create('ugik_datareference_headtruk', function($table)
+        Schema::create('ugik_datareference_headtruck', function($table)
         {
             $table->engine = 'InnoDB';
             $table->string('head_truck_no', 12);

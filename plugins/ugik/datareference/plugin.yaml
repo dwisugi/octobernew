@@ -9,6 +9,8 @@ navigation:
         label: 'Data Reference'
         url: ugik/datareference/headtruck
         icon: icon-delicious
+        permissions:
+            - dispatcher_code
         sideMenu:
             side-menu-headtruck:
                 label: 'Head Truck'

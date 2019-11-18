@@ -1,0 +1,4 @@
+title: SapiController
+modelClass: Ugik\DataReference\Models\ModelSapi
+toolbar:
+    buttons: reorder_toolbar

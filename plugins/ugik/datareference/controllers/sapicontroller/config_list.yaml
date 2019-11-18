@@ -1,0 +1,12 @@
+list: $/ugik/datareference/models/modelsapi/columns.yaml
+modelClass: Ugik\DataReference\Models\ModelSapi
+title: SapiController
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'ugik/datareference/sapicontroller/update/:id'

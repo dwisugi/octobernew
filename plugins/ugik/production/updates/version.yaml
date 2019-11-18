@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table ugik_production_'
+    - builder_table_create_ugik_production_.php
+1.0.3:
+    - 'Updated table ugik_production_'
+    - builder_table_update_ugik_production_production.php
+1.0.4:
+    - 'Updated table ugik_production_production'
+    - builder_table_update_ugik_production_.php

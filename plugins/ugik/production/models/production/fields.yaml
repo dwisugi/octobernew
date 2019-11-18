@@ -1,0 +1,17 @@
+fields:
+    id:
+        label: ID
+        span: auto
+        type: text
+    created_at:
+        label: Create
+        span: auto
+        type: text
+    updated_at:
+        label: Update
+        span: auto
+        type: text
+    deleted_at:
+        label: Delete
+        span: auto
+        type: text

@@ -9,7 +9,7 @@ class BuilderTableUpdateUgikDatareferenceCompany3 extends Migration
     {
         Schema::table('ugik_datareference_company', function($table)
         {
-            $table->timestamp('deleted_at')->nullable();
+            $table->bigInteger('contact_phone')->nullable(false)->unsigned(false)->default(null)->change();
         });
     }
     
@@ -17,7 +17,7 @@ class BuilderTableUpdateUgikDatareferenceCompany3 extends Migration
     {
         Schema::table('ugik_datareference_company', function($table)
         {
-            $table->dropColumn('deleted_at');
+            $table->integer('contact_phone')->nullable(false)->unsigned(false)->default(null)->change();
         });
     }
 }

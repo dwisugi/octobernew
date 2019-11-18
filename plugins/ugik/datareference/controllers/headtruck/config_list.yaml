@@ -1,12 +1,12 @@
-list: $/ugik/datareference/models/headtruck/columns.yaml
-modelClass: Ugik\DataReference\Models\Headtruck
 title: Headtruck
+modelClass: Ugik\DataReference\Models\Headtruck
+list: $/ugik/datareference/models/headtruck/columns.yaml
+recordUrl: 'ugik/datareference/headtruck/update/:id'
 noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
 showSetup: true
 showCheckboxes: true
-recordsPerPage: 20
 toolbar:
     buttons: list_toolbar
     search:
         prompt: 'backend::lang.list.search_prompt'
-recordUrl: 'ugik/datareference/headtruck/update/:id'

@@ -1,0 +1,10 @@
+name: SapiController
+form: $/ugik/datareference/models/modelsapi/fields.yaml
+modelClass: Ugik\DataReference\Models\ModelSapi
+defaultRedirect: ugik/datareference/sapicontroller
+create:
+    redirect: 'ugik/datareference/sapicontroller/update/:id'
+    redirectClose: ugik/datareference/sapicontroller
+update:
+    redirect: ugik/datareference/sapicontroller
+    redirectClose: ugik/datareference/sapicontroller

@@ -1,6 +1,6 @@
 name: Headtruck
-form: $/ugik/datareference/models/headtruck/fields.yaml
 modelClass: Ugik\DataReference\Models\Headtruck
+form: $/ugik/datareference/models/headtruck/fields.yaml
 defaultRedirect: ugik/datareference/headtruck
 create:
     redirect: 'ugik/datareference/headtruck/update/:id'
@@ -8,3 +8,4 @@ create:
 update:
     redirect: ugik/datareference/headtruck
     redirectClose: ugik/datareference/headtruck
+preview: {  }

@@ -1,0 +1,20 @@
+plugin:
+    name: 'ugik.production::lang.plugin.name'
+    description: 'ugik.production::lang.plugin.description'
+    author: Ugik
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-production:
+        label: Production
+        url: ugik/production/production
+        icon: icon-arrow-circle-right
+        permissions:
+            - production_code
+permissions:
+    production_code:
+        tab: production_tittle
+        label: production_label
+    dispatcher_code:
+        tab: dispatcher_tittle
+        label: dispatcher_label
